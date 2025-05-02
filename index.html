@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Corinthians - Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo do Timão: Cássio, Sócrates ou Ronaldo?</h1>
+    <div class="placar">
+        <span id="score-player">Você: 0</span> | 
+        <span id="score-computer">Computador: 0</span>
+    </div>
+    <div class="choices">
+        <button class="choice" data-choice="cassio">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/C%C3%A1ssio_Corinthians_2022.jpg" alt="Cássio" /><br>
+            Cássio
+        </button>
+        <button class="choice" data-choice="socrates">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Socrates_brazil_1982.jpg" alt="Sócrates" /><br>
+            Sócrates
+        </button>
+        <button class="choice" data-choice="ronaldo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Ronaldo_Nazario_2020.jpg" alt="Ronaldo" /><br>
+            Ronaldo
+        </button>
+    </div>
+    <div id="result"></div>
+    <button id="restart">Jogar de Novo</button>
+    <script src="script.js"></script>
+</body>
+</html>
